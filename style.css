@@ -1,0 +1,296 @@
+
+       
+       
+       
+       
+       
+       /* Estilos para el óvalo */
+
+
+       #LogoTRA {
+        padding-left: 30%;
+        height: 80px;
+        width: auto;
+        
+    }
+
+        
+    header {
+       
+       
+        width: 100%;
+        z-index: 999; /* Asegura que el encabezado esté por encima del contenido */
+        
+    }
+
+        #ContenedorHeader{
+            
+            background-color:  #7F8DB8;   
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            position: relative;
+        }
+        
+
+
+        .oval-container {
+            
+            justify-content: space-between;
+            width: auto;
+            height: auto;
+            border-radius: 1%;
+            padding-left: 600px;
+            padding: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+        }
+
+        .oval-container a {
+            color: white; /* Cambiar el color del texto a blanco */
+            font-family: 'Orbitron', sans-serif; /* Establecer la fuente en Arial */
+            font-size: 15px; /* Establecer el tamaño de fuente en 12px */
+            text-shadow: 0px 0px 10px rgba(29, 28, 28, 0.477);
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #ContenedorHeader a.nav-link:hover {
+         
+            color: #7f9fb8; /* Cambiar el color del texto a blanco para mejorar la legibilidad */
+        }
+
+        #BTNunete{
+            display: flex;
+            margin-left: 40px;
+            margin-right: 100PX;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: 'Orbitron', sans-serif;
+            Font-size: 17px;
+            text-shadow: #ffffff;
+            /*TAMAÑO DE LA CAJITA BOTON IZQ DER*/
+            padding-right: 10%;
+            padding-left: 10%;
+            
+        }
+
+        .custom-btn {
+            background-color: #6935B8;
+            box-shadow: 0px 0px 10px rgba(29, 28, 28, 0.477);
+            color: white; /* Cambiar el color del texto a blanco para una mejor legibilidad */
+        }
+        
+        .custom-btn:hover {
+            background-color: rgba(110, 104, 197, 0.843)/* Cambiar el color en el hover (al poner el cursor encima) */
+        }
+
+
+
+
+
+        #FotoCabecera{
+            width: 100%;
+           
+        }
+        #FotoCabecera img {
+            width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+            height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+          }
+
+        #ContenidoPrincipal{
+            background-color: rgb(65, 65, 65); /* Cambia "purple" al código de color morado que desees */
+          }
+
+
+
+        body{
+
+            background-image: url(Fondos/Untitled\ design\ \(1\).png); /* Ruta relativa a la imagen de fondo en la carpeta "img" */
+            background-size: cover;
+            background-repeat:repeat;
+            background-attachment: fixed;
+        
+
+        }
+
+        footer{
+
+            background-color:  #6935B8;
+
+
+        }
+        .custom-footer p {
+            color: white;
+        }
+
+        .custom-formulario{
+            background-color: #7F8DB8;
+        }
+
+        .custom-ubicacion{
+            background-color: #7F8DB8;
+        }
+
+        .custom-redes{
+            background-color: #7F8DB8;
+        }
+
+        .custom-fondoCarta{
+            background-color: #7F8DB8;
+        }
+
+
+
+        /* Estilos responsivos para cambiar el diseño en pantallas pequeñas (menos de 768px) */
+        @media (max-width: 768px) {
+            .oval-container {
+         flex-direction: column; /* Cambia la dirección del flujo en columnas */
+                     align-items: flex-start; /* Alinea los elementos a la izquierda */
+                        }
+                 }
+
+
+        /* Estilos para la barra de navegación */
+        .nav {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .nav-item {
+            margin: 0 10px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Estilos para el botón de unirse */
+        .btn-primary {
+            background-color: rgb(111, 0, 255);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Estilos para la columna de botón de unirse */
+        .text-end {
+            text-align: left;
+        }
+    
+        #redesSociales{
+
+            display:flex;
+          
+          
+            
+            }
+
+            
+
+/* CODIGO CSS PARA LA PESTAÑA "PROYECTOS" */
+
+
+#containerProyectos {
+    background-color: #7F8DB8;
+    text-align: center;
+    color: white;
+    /* Otras propiedades de fondo */
+}
+
+/* CODIGO CSS PARA LA PESTAÑA "NOSOTROS" */
+#containerMiembrosactuales{
+
+display:flex;
+background-image: url(Fondos/fondo2.jpg); /* Ruta relativa a la imagen de fondo en la carpeta "img" */
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+text-align: center;
+
+
+}
+
+
+.custom-border-cian {
+    border: 5px solid #0ce6db;
+}
+.custom-border-red {
+    border: 5px solid #e56c7a;
+}
+.custom-border-pink {
+    border: 5px solid #eb4cd3;
+}
+.custom-border-green {
+    border: 5px solid #78ed4a;
+}
+.custom-border-yellow {
+    border: 5px solid rgb(241, 233, 77);
+}
+
+.custom-border-blue {
+    border: 5px solid rgb(65, 73, 218);
+}
+
+
+
+.custom-border-purple{
+
+border:5px solid  rgb(174, 16, 174);
+}
+
+#containerMiembrosactuales h1 {
+    color: white !important;
+}
+#containerMiembrosactuales h4 {
+    color: white;
+}
+#containerMiembrosactuales p  {
+    color: white;
+}
+
+
+
+.custom-container {
+    max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 20px; /* Agrega un relleno alrededor del contenido si es necesario */
+  }
+
+#containerExmiembros {
+    background-image: url(Fondos/fondo1.jpg); /* Ruta relativa a la imagen de fondo en la carpeta "img" */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+    /* Otras propiedades de fondo */
+}
+
+#containerExmiembros h1 {
+    color: white !important;
+}
+#containerExmiembros h4  {
+    color: white;
+}
+#containerExmiembros p  {
+    color: white;
+    text-align: justify;
+   
+}
+
+#cardProyectos p  {
+   
+    text-align: justify;
+   
+}
+
+
+
+

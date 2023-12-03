@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRA-Taller de Robótica Abierta</title>
+
+  <!-- Vincular primer código Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Vincular archivo de CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Vincular Fuentes de Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
+    <div class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none ms-5">
+        <img id="LogoTRA" src="TRA.png" class="bi" width="20" height="32">
+      </a>
+    </div>
+
+    <div id="ContenedorHeader" class="oval-container">
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a id="Principal" href="#" class="nav-link px-2 ">Nosotros</a></li>
+        <li><a id="Proyectos" href="#" class="nav-link px-2">Proyectos</a></li>
+        <li><a id="Publicaciones" href="#" class="nav-link px-2">Publicaciones</a></li>
+        <li><a id="Nosotros" href="#" class="nav-link px-2">Videos</a></li>
+
+        <div>
+          <li class="ml-auto"><button id="BTNunete" type="button" class="btn custom-btn">TRA</button> </li>
+        </div>
+
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row mb-2"></div>
+
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="col-lg-6 px-0">
+        <h1 class="display-4 fst-italic">Taller de Robótica Abierta</h1>
+      </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row g-0  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative custom-border-purple">
+          <div class="col p-4 d-flex flex-column position-relative custom-formulario">
+            <div class="container ">
+              <h2>¿Quieres formar parte de nosotros? ¡Únete al equipo!</h2>
+              <div class="col-md-20">
+                <div class="col p-6 d-flex flex-column position-relative">
+                  <!-- Image container with rounded corners -->
+                  <div class="rounded overflow-hidden">
+                    <!-- Add your image here -->
+                    <img src="FotosMiembros/FotoMiembros.jpg" alt="EquipoTRA" class="img-fluid"
+                      style="width: 100%; height: 100%; border-radius: 15px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+              </div>
+              <div class="form-group">
+                <label for="email">Carrera y semestre:</label>
+                <input type="carrera" class="form-control" id="carrera" placeholder="Ingresa tu carrera y semestre">
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div
+          class="row g-0  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative custom-border-cian">
+          <div class="col p-4 d-flex flex-column position-static custom-ubicacion">
+            <strong class="d-inline-block mb-2 text-success-emphasis">UBICACIÓN</strong>
+            <h3 class="mb-0">¿Dónde estamos?</h3>
+            <div class="mb-1 text-body-secondary"></div>
+            <p class="mb-auto">El taller está ubicado en el Conjunto Sur de la Facultad de Ingeniería, al final del
+              Edificio J.</p>
+            <a href="https://maps.app.goo.gl/1vgQvTvjLQEJSzt87" class="icon-link gap-1 icon-link-hover stretched-link">
+              Dirección
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <!-- Aquí agregamos la etiqueta <img> para mostrar el GIF -->
+            <img src="FotosInicio/Ubicacion.gif" alt="GIF" width="200" height="250">
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row flex-wrap">
+            <!-- Tarjeta con texto -->
+            <div class="col-md-15">
+              <div
+                class=" custom-border-yellow custom-redes rounded overflow-hidden mb-4 shadow-sm h-md-250 position-relative"
+                id="redesSociales">
+                <!-- Contenido de la tarjeta -->
+                <div class="p-4 d-flex flex-column">
+                  <strong class="d-inline-block mb-2 text-success-emphasis">REDES SOCIALES</strong>
+                  <h3 class="mb-10">¡Síguenos!</h3>
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="mr-2">
+                      <a href="https://www.facebook.com/TallerRoboticaFI" target="_blank">
+                        <img src="FotosInicio/FacebookLogo.png" alt="Imagen 1" class="img-fluid max-width-100" style="width: 500px; height: auto;">
+                      </a>
+                    </div>
+                    <div class="mr-2">
+                      <a href="https://www.facebook.com" target="_blank">
+                        <img src="FotosInicio/instagramLOGO.png" alt="Imagen 2" class="img-fluid max-width-200" >
+                      </a>
+                    </div>
+                    <div class="mr-2">
+                      <a href="https://github.com/TRA-UNAM" target="_blank">
+                        <img src="FotosInicio/GithubLOGO.png" alt="Imagen 3" class="img-fluid max-width-100">
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://www.youtube.com/@tallerroboticaabiertafi9871" target="_blank">
+                        <img src="FotosInicio/YoutubeLOGO.png" alt="Imagen 4" class="img-fluid max-width-100">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+ <!-- Contacto -->
+ <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top custom-footer">
+  
+  <div id="contacto" class="text-body-secondary ms-5 ">
+    <p id="Escuela" class="lead fw-bold">Taller de Robótica Abierta</p>
+    <p class="fw-bold pr-3">Facultad de Ingeniería UNAM</p>
+  </div>
+
+  <div id="correo" class="text-body-secondary align-items-center me-5 ">
+    <i class="bi bi-envelope-at"></i>
+    <p>tallerrobotica.fi@gmail.com</p>
+  </div>
+
+</footer>
