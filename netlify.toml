@@ -1,0 +1,31 @@
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/nosotros/*"
+  to = "/nosotros.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/publicaciones/*"
+  to = "/publicaciones.html"
+  status = 200
+  force = true
+
+  [[redirects]]
+  from = "/videos/*"
+  to = "/videos.html"
+  status = 200
+  force = true
+
+  [[redirects]]
+  from = "/proyectos/*"
+  to = "/publicaciones.html"
+  status = 200
+  force = true
