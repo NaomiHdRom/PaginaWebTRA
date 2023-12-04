@@ -1,4 +1,5 @@
-/nosotros        /nosotros-nuevo-destino        301
-/proyectos       /proyectos-nuevo-destino       301
-/publicaciones   /publicaciones-nuevo-destino   301
-/videos          /videos-nuevo-destino          301
+/nosotros /nosotros.html 200
+/proyectos /proyectos.html 200
+/publicaciones /publicaciones.html 200
+/videos /videos.html 200
+/index /index.html
