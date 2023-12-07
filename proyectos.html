@@ -44,11 +44,18 @@
           <li><a id="Proyectos" href="/proyectos.html" class="nav-link px-2">Proyectos</a></li>
           <li><a id="Publicaciones" href="/publicaciones.html" class="nav-link px-2">Publicaciones</a></li>
           <li><a id="Nosotros" href="/videos.html" class="nav-link px-2">Videos</a></li>
-  
           <div>
-            <li class="ml-auto"><button id="BTNunete" type="button" href="/index.html" class="btn custom-btn">TRA</button> </li>
-          </div>
-  
+            <li class="ml-auto">
+                <button id="BTNunete" type="button" class="btn custom-btn" onclick="redirectToIndex()">TRA</button>
+            </li>
+        </div>
+        
+        <script>
+            function redirectToIndex() {
+                // Redirecciona a /index
+                window.location.href = "/index.html";
+            }
+        </script>
         </ul>
       </div>
     </header>
