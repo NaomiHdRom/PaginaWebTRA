@@ -140,7 +140,14 @@
             background-color: #7F8DB8;
         }
 
-
+        .custom-portada{
+            background-image: url(FotosInicio/cover.png);
+            
+            background-repeat: no-repeat;
+            display:flex;
+            background-attachment:local;
+            width:fit-content;
+        }
 
         /* Estilos responsivos para cambiar el diseño en pantallas pequeñas (menos de 768px) */
         @media (max-width: 768px) {
